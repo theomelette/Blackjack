@@ -3,18 +3,10 @@ let sum = 0;
 let hasBlackJack = false;
 let isAlive = false;
 let message = "";
-let messageEl = document.getElementById("message-el");
-let sumEl = document.getElementById("sum-el");
-let cardsEl = document.getElementById("cards-el");
-let player = {
-  name: "Amit",
-  chips: 100
-}
-// let playerEl = document.getElementById("player-el")
+let messageEl = document.getElementById("message");
+let sumEl = document.getElementById("sum");
+let cardsEl = document.getElementById("cards");
 
-playerEl.textContent = player.name + ": $" + player.chips
-
-console.log(cards);
 
 function getRandomCard() {
   let randomNumer = Math.floor(Math.random() * 13) + 1;
